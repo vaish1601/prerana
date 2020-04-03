@@ -1,0 +1,94 @@
+body {
+  background-image: url("headerbg.png");
+  background-color: #D8CACA;
+  color: black;
+  font-style:normal;
+  font-weight: 400;
+
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #ffff;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sidebar-header{
+  padding-left: 15px;
+  padding-top: 43px;
+}
+
+.sidebar-items{
+  padding-top: :15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.openbtn{
+  border-style: none;
+  color: #D8CACA;
+  width:40px;
+  height:30px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+.topbar{
+  list-style-type: none;
+  margin-left: 184px;
+  padding-right: 70px;
+  padding-left: 300px;
+  display: inline;
+  position: fixed;
+  top: 0;
+  width:90%;
+  height:80px;
+  background-color: white;
+  ;
+}
+.btn-white {
+  width:40px;
+  height:30px;
+  border-color:black;
+  padding:3px;
+  background-color:white;
+}
+.right-icon{
+  position:relative;
+}
+.nav {
+  border-style: solid black;
+  padding-left:1500px;
+  padding-top: 0px;
+  width:100%;
+  height:45px;
+  background-color: white;
+  width: auto;
+  position:fixed;
+}
+.main{
+  margin-left: 350px;
+  margin-top: 100px;
+}
+.col-4-lg{
+  align-self: center;
+  border: none;
+  padding:20px;
+}
+.dp{
+  width:10px;
+  height:10px;
+}
