@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>(1)Youtube</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="ytb.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="ytb.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+</head>
+
+<body>
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <nav id="sidebar">
+
+        <div class=" sidebar-header">
+          <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776;</button>
+              <img src="logo.png" style="width:120px;height:60px">
+          </div>
+        </div>
+        <hr>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="#"><img src="home.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Home</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="trending.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Trending</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="sub.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Subsription</h8></a>
+                </li>
+                <hr>
+                <li class="sidebar-items">
+                    <a href="#"><img src="library.png "style="width:30px;height:25px"> <h8 style="color:#36454F "> Library</h8></a>
+                </li>
+
+                <li class="sidebar-items">
+                    <a href="#"><img src="his.png "style="width:30px;height:25px"><h8 style="color:#36454F "> History</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="wl.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Watch later</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="liked.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Liked video</h8></a>
+                </li>
+                <hr>
+                <li class="sidebar-items">
+                    <h9 style="color:black;font-weight: 100">MY SUBSCRIPTION</h9>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="dp.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Kurt Hugo Schneider</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="dp.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Brainfoo TV</h8></a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="#"><img src="dp.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Architectural Digest</h8></a>
+                </li>
+                <hr>
+
+                <li class="sidebar-items">
+                  <a href="#"><img src="prem.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Youtube Premium</h8></a>
+                </li>
+
+                <li class="sidebar-items">
+                  <a href="#"><img src="movie.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Youtube Movies</h8></a>
+                </li>
+
+                <li class="sidebar-items">
+                    <a href="#"><img src="gaming.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Gaming</h8></a>
+                </li>
+
+                <li class="sidebar-items">
+                    <a href="#"><img src="live.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Live</h8></a>
+                </li>
+
+                <li class="sidebar-items">
+                    <a href="#"><img src="fash.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Fashion & Beauty</h8></a>
+                </li>
+                <hr>
+                <li class="sidebar-items">
+                  <a href="#"><img src="setting.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Setting</h8></a>
+                </li>
+                <li class="sidebar-items">
+                  <a href="#"><img src="flag.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Report History</h8></a>
+                </li>
+                <li class="sidebar-items">
+                  <a href="#"><img src="help.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Help</h8></a>
+                </li>
+                <li class="sidebar-items">
+                  <a href="#"><img src="feedback.png "style="width:30px;height:25px"><h8 style="color:#36454F "> Send Feedback</h8></a>
+                </li>
+                <hr>
+            </ul>
+            <p style="color:black;font-weight:5;size:5;padding-left:15px"><b> About Press Copyright <br> Contact Us  Creators<br>Advertise Developers <br><br> Terms Privacy Policy & Safety<br>Test new feature<br><br> </b> @2020 Google LLC</p>
+          </nav>
+  </div>
+  </div>
+
+</div>
+
+<nav class="navbar navbar-dark bg-white navbar-fixed-top">
+  <div class="container-fluid topbar">
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" size=60 type="text" placeholder="Search">
+      <img src="search.png" class="btn btn-white btn-smc text-center" type="submit">
+    </form>
+    <div class="right-icon">
+      <a href="#"><img src="dpo.png" class="rounded float-right" style="width:40px;height:40px;"></a>
+      <a href="#"><img src="bell.png" class="rounded float-right"></a>
+      <a href="#"><img src="apps.png"class="rounded float-right"></a>
+      <a href="#"><img src="video.png"class="rounded float-right"></a>
+  </div>
+  </div>
+</nav>
+
+<hr>
+<div class="container nav">
+    <div class="row">
+    <div class="col-4 active"><a href="#"><h8 style="color:#b784a7">HOME</h8></a></div>
+    <div class="col-4 active"><a href="#"><h8 style="color:#36454F ">TRENDING</h8></a></div>
+    <div class="col-4 active"><a href="#"><h8 style="color:#36454F ">SUBSCRIPTION</h8></a></div>
+  </div>
+</div>
+
+<div class="container main">
+  <div class="row big">
+    <div class="col-4-lg">
+       <img src="1.png">
+       <br>
+       <p><b> "Beauty And A Beat"-Justin Bieber<br>(Alex Goot,Kurt Schneider,and...)</b></p>
+       <p> Kurt Hugo Schneider</p>
+       <p> 174M views . 7 years ago</p>
+    </div>
+    <div class="col-4-lg"><img src="2.png"><br>
+        <p><b> Inside Dakota Johnson's Serene <br>Hollywood Home </b></p>
+      <p> Architectural Digest</p>
+      <p> 3.3M views . 7 years ago</p>
+    </div>
+    <div class="col-4-lg"><img src="3.png"><br>
+      <p><b>Cat and me</b></p>
+      <p>Brainfoo TV</p>
+      <p> 3.5M views . 1 week ago</p>
+    </div>
+  </div>
+  <hr>
+  <div class="row big">
+    <div class="col-4-lg">
+      <img src="4.png">
+      <img src="dp.png" style="width:30px;height:30px;margin-bottom:5px;margin-top:5px;">
+        <p><b>"Beauty And A Beat"-Justin Bieber<br> (Alex Goot,Kurt Schneider,and...)</b></p>
+        <p> Kurt Hugo Schneider</p>
+        <p> 174M views . 7 years ago</p>
+      </div>
+    <div class="col-4-lg"><img src="5.png"><br>
+      <p><b> Inside Dakota Johnson's Serene<br> Hollywood Home </b></p>
+      <p> Architectural Digest</p>
+      <p> 3.3M views . 7 years ago</p>
+    </div>
+    <div class="col-4-lg"><img src="6.png"><br>
+      <p><b>Cat and me</b></p>
+      <p>Brainfoo TV</p>
+      <p> 3.5M views . 1 week ago</p>
+    </div>
+  </div>
+
+  <div class="row big">
+    <div class="col-4-lg">
+      <img src="9.png">
+      <br>
+      <p><b> "Beauty And A Beat"-Justin Bieber<br>(Alex Goot,Kurt Schneider,and...)</b></p>
+      <p> Kurt Hugo Schneider</p>
+      <p> 174M views . 7 years ago</p>
+    </div>
+    <div class="col-4-lg"><img src="7.png"><br>
+      <p><b> Inside Dakota Johnson's Serene <br>Hollywood Home </b></p>
+      <p> Architectural Digest</p>
+      <p> 3.3M views . 7 years ago</p>
+    </div>
+    <div class="col-4-lg"><img src="8.png"><br>
+      <p><b>Cat and me</b></p>
+      <p>Brainfoo TV</p>
+      <p> 3.5M views . 1 week ago</p>
+    </div>
+  </div>
+      <hr>
+      <div class="row big">
+        <div class="col-10-lg">
+            <img src="17.png">
+            <br>
+            <p><b> "Beauty And A Beat"-Justin Bieber<br>(Alex Goot,Kurt Schneider,and...)</b></p>
+            <p> Kurt Hugo Schneider</p>
+            <p> 174M views . 7 years ago</p>
+        </div>
+        <div class="col-4-lg"><img src="11.png"><br>
+            <p><b> Inside Dakota Johnson's Serene <br>Hollywood Home </b></p>
+            <p> Architectural Digest</p>
+            <p> 3.3M views . 7 years ago</p>
+        </div>
+        <div class="col-4-lg"><img src="12.png"><br>
+            <p><b>Cat and me</b></p>
+            <p>Brainfoo TV</p>
+            <p> 3.5M views . 1 week ago</p>
+        </div>
+  </div>
+      <hr>
+  <div class="row big">
+      <div class="col-13-lg">
+          <img src="16.png">
+          <br>
+          <p><b> "Beauty And A Beat"-Justin Bieber<br>(Alex Goot,Kurt Schneider,and...)</b></p>
+          <p> Kurt Hugo Schneider</p>
+          <p> 174M views . 7 years ago</p>
+      </div>
+      <div class="col-4-lg"><img src="14.png"><br>
+          <p><b> Inside Dakota Johnson's Serene <br>Hollywood Home </b></p>
+          <p> Architectural Digest</p>
+          <p> 3.3M views . 7 years ago</p>
+      </div>
+      <div class="col-4-lg"><img src="15.png"><br>
+          <p><b>Cat and me</b></p>
+          <p>Brainfoo TV</p>
+          <p> 3.5M views . 1 week ago</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
